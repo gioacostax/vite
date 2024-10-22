@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth text-[14px] leading-7 antialiased;
+  }
+
+  body {
+    @apply bg-slate-100 font-mono text-slate-700 dark:bg-bg-main dark:text-slate-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold font-sans text-slate-700 dark:text-slate-200;
+  }
+
+  strong {
+    @apply font-bold text-slate-800 dark:text-slate-200;
+  }
+}

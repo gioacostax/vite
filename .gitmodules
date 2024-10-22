@@ -1,0 +1,12 @@
+[submodule "shared/config"]
+	path = shared/config
+	url = git@github.com:gioacostax/shared-config.git
+[submodule "shared/react"]
+	path = shared/react
+	url = git@github.com:gioacostax/shared-react.git
+[submodule "shared/utils"]
+	path = shared/utils
+	url = git@github.com:gioacostax/shared-utils.git
+[submodule "shared/vitest"]
+	path = shared/vitest
+	url = git@github.com:gioacostax/shared-vitest.git
